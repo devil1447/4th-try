@@ -1,0 +1,22 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "A 24/7 Minecraft AFK bot designed for PaperMC servers running Minecraft 1.21.5 with plugin compatibility, particularly for \"Villager in a Bucket\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "minecraft-data": "^3.85.0",
+    "mineflayer": "^4.25.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "node-cron": "^3.0.3",
+    "pm2": "^6.0.5",
+    "vec3": "^0.1.10",
+    "winston": "^3.17.0"
+  }
+}

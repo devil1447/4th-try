@@ -1,0 +1,203 @@
+[2025-05-07 07:50:49] ERROR: uncaughtException: "[object Object]" is not valid JSON
+SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at EventEmitter.<anonymous> (/home/runner/workspace/bot.js:89:34)
+    at EventEmitter.emit (node:events:518:28)
+    at Client.<anonymous> (/home/runner/workspace/node_modules/mineflayer/lib/plugins/kick.js:5:9)
+    at Client.emit (node:events:518:28)
+    at emitPacket (/home/runner/workspace/node_modules/minecraft-protocol/src/client.js:84:12)
+    at FullPacketParser.<anonymous> (/home/runner/workspace/node_modules/minecraft-protocol/src/client.js:113:9)
+    at FullPacketParser.emit (node:events:518:28)
+    at addChunk (/home/runner/workspace/node_modules/readable-stream/lib/internal/streams/readable.js:323:12)
+    at readableAddChunk (/home/runner/workspace/node_modules/readable-stream/lib/internal/streams/readable.js:300:9)
+SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at EventEmitter.<anonymous> (/home/runner/workspace/bot.js:89:34)
+    at EventEmitter.emit (node:events:518:28)
+    at Client.<anonymous> (/home/runner/workspace/node_modules/mineflayer/lib/plugins/kick.js:5:9)
+    at Client.emit (node:events:518:28)
+    at emitPacket (/home/runner/workspace/node_modules/minecraft-protocol/src/client.js:84:12)
+    at FullPacketParser.<anonymous> (/home/runner/workspace/node_modules/minecraft-protocol/src/client.js:113:9)
+    at FullPacketParser.emit (node:events:518:28)
+    at addChunk (/home/runner/workspace/node_modules/readable-stream/lib/internal/streams/readable.js:323:12)
+    at readableAddChunk (/home/runner/workspace/node_modules/readable-stream/lib/internal/streams/readable.js:300:9)
+[2025-05-07 07:51:19] ERROR: uncaughtException: "[object Object]" is not valid JSON
+SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at EventEmitter.<anonymous> (/home/runner/workspace/bot.js:89:34)
+    at EventEmitter.emit (node:events:518:28)
+    at Client.<anonymous> (/home/runner/workspace/node_modules/mineflayer/lib/plugins/kick.js:5:9)
+    at Client.emit (node:events:518:28)
+    at emitPacket (/home/runner/workspace/node_modules/minecraft-protocol/src/client.js:84:12)
+    at FullPacketParser.<anonymous> (/home/runner/workspace/node_modules/minecraft-protocol/src/client.js:113:9)
+    at FullPacketParser.emit (node:events:518:28)
+    at addChunk (/home/runner/workspace/node_modules/readable-stream/lib/internal/streams/readable.js:323:12)
+    at readableAddChunk (/home/runner/workspace/node_modules/readable-stream/lib/internal/streams/readable.js:300:9)
+SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at EventEmitter.<anonymous> (/home/runner/workspace/bot.js:89:34)
+    at EventEmitter.emit (node:events:518:28)
+    at Client.<anonymous> (/home/runner/workspace/node_modules/mineflayer/lib/plugins/kick.js:5:9)
+    at Client.emit (node:events:518:28)
+    at emitPacket (/home/runner/workspace/node_modules/minecraft-protocol/src/client.js:84:12)
+    at FullPacketParser.<anonymous> (/home/runner/workspace/node_modules/minecraft-protocol/src/client.js:113:9)
+    at FullPacketParser.emit (node:events:518:28)
+    at addChunk (/home/runner/workspace/node_modules/readable-stream/lib/internal/streams/readable.js:323:12)
+    at readableAddChunk (/home/runner/workspace/node_modules/readable-stream/lib/internal/streams/readable.js:300:9)
+[2025-05-07 07:52:31] ERROR: uncaughtException: bot._client.chat is not a function
+TypeError: bot._client.chat is not a function
+    at /home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:164:21
+    at Array.forEach (<anonymous>)
+    at chatWithHeader (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:158:25)
+    at bot.chat (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:194:5)
+    at Timeout._onTimeout (/home/runner/workspace/bot.js:76:13)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+TypeError: bot._client.chat is not a function
+    at /home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:164:21
+    at Array.forEach (<anonymous>)
+    at chatWithHeader (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:158:25)
+    at bot.chat (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:194:5)
+    at Timeout._onTimeout (/home/runner/workspace/bot.js:76:13)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[2025-05-07 07:55:57] ERROR: uncaughtException: bot._client.chat is not a function
+TypeError: bot._client.chat is not a function
+    at /home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:164:21
+    at Array.forEach (<anonymous>)
+    at chatWithHeader (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:158:25)
+    at bot.chat (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:194:5)
+    at Timeout._onTimeout (/home/runner/workspace/bot.js:76:13)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+TypeError: bot._client.chat is not a function
+    at /home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:164:21
+    at Array.forEach (<anonymous>)
+    at chatWithHeader (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:158:25)
+    at bot.chat (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:194:5)
+    at Timeout._onTimeout (/home/runner/workspace/bot.js:76:13)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[2025-05-07 07:56:00] ERROR: uncaughtException: listen EADDRINUSE: address already in use :::8080
+Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Object.<anonymous> (/home/runner/workspace/keep_alive.js:24:8)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Object.<anonymous> (/home/runner/workspace/keep_alive.js:24:8)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+    at require (node:internal/modules/helpers:179:18)
+[2025-05-07 07:56:09] ERROR: uncaughtException: bot._client.chat is not a function
+TypeError: bot._client.chat is not a function
+    at /home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:164:21
+    at Array.forEach (<anonymous>)
+    at chatWithHeader (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:158:25)
+    at bot.chat (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:194:5)
+    at Timeout._onTimeout (/home/runner/workspace/bot.js:76:13)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+TypeError: bot._client.chat is not a function
+    at /home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:164:21
+    at Array.forEach (<anonymous>)
+    at chatWithHeader (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:158:25)
+    at bot.chat (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:194:5)
+    at Timeout._onTimeout (/home/runner/workspace/bot.js:76:13)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[2025-05-07 07:56:17] ERROR: uncaughtException: bot._client.chat is not a function
+TypeError: bot._client.chat is not a function
+    at /home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:164:21
+    at Array.forEach (<anonymous>)
+    at chatWithHeader (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:158:25)
+    at bot.chat (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:194:5)
+    at Timeout._onTimeout (/home/runner/workspace/bot.js:76:13)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+TypeError: bot._client.chat is not a function
+    at /home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:164:21
+    at Array.forEach (<anonymous>)
+    at chatWithHeader (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:158:25)
+    at bot.chat (/home/runner/workspace/node_modules/mineflayer/lib/plugins/chat.js:194:5)
+    at Timeout._onTimeout (/home/runner/workspace/bot.js:76:13)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[2025-05-15 08:04:07] ERROR: uncaughtException: listen EADDRINUSE: address already in use 0.0.0.0:8080
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2025-05-28 05:53:09] ERROR: uncaughtException: listen EADDRINUSE: address already in use 0.0.0.0:8080
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2025-05-28 05:53:09] ERROR: uncaughtException: listen EADDRINUSE: address already in use 0.0.0.0:8080
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2025-05-28 06:02:16] ERROR: uncaughtException: listen EADDRINUSE: address already in use 0.0.0.0:8080
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2025-05-28 06:02:18] ERROR: uncaughtException: listen EADDRINUSE: address already in use 0.0.0.0:8080
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2025-05-28 06:02:20] ERROR: uncaughtException: listen EADDRINUSE: address already in use 0.0.0.0:8080
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

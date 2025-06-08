@@ -1,0 +1,32 @@
+modules = ["nodejs-20"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Devil Bot 24/7"
+
+[[workflows.workflow]]
+name = "Devil Bot 24/7"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node index.js"
+waitForPort = 8080
+
+[deployment]
+run = ["sh", "-c", "npm init -y && npm install mineflayer mineflayer-pathfinder vec3 winston dotenv && mkdir -p logs && node index.js"]
+
+[[ports]]
+localPort = 8080
+externalPort = 8080
